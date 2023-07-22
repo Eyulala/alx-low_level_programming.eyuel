@@ -6,6 +6,7 @@
  * Return- Always (success)
  */
 int main(void)
+
 {
 	int n;
 
