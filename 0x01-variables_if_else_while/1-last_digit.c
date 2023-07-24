@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints a text according number
+ * main - is the main and main function
  * Return- always (success)
  */
 int main(void)
