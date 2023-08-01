@@ -26,4 +26,6 @@ while (*s)
 			return (bytes);
 	}
 	s++;
+	
+}
 }
