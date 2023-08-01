@@ -20,14 +20,13 @@ while (*haystack)
 	index = 0;
 	if (haystack[index] == needle[index])
 	{
-		 do {
+		do {
 			if (needle[index + 1] == '\0')
-					return (haystack);
-				index++
-
+				return (haystack);
+			index++;
 		 } while (haystack[index] == needle[index]);
 	}
 	haystack++;
 }
-	return ('\0') ;
+	return ('\0');
 }
