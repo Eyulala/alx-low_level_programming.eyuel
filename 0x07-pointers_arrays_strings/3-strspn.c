@@ -28,4 +28,5 @@ while (*s)
 	s++;
 	
 }
+return (bytes);
 }
