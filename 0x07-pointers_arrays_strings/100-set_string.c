@@ -1,20 +1,10 @@
 #include "main.h"
-
 /**
- * _memset - fills memory with a constant byte
- * @s: memeory area to be filled
- * @b: char to copy
- * @n: number of times to copy b
- * Return: pointer to the memory area s
+ * set_string - sets the value of pointer to char
+ * @s: pointer to pointer
+ * @to: pointer char
  */
-char *_memset(char *s, char b, unsigned int n)
+void set_string(char **s, char *to)
 {
-unsigned int i;
-
-for (i = 0; i < n; i++)
-{
-	s[i] = b;
-}
-return (s);
-
+	*s = to;
 }
